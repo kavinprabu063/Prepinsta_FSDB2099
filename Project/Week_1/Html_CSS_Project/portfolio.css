@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+header ul{
+
+    height: 4.5vw;
+    background-color:rgb(0, 0, 0);
+    list-style-type:none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    box-sizing: border-box;
+
+    
+}
+
+li{
+    
+    float: left;
+    padding: 2.7vw;
+    font-size: small;
+    box-sizing: border-box;
+    
+    
+}
+
+.head{
+        width: 100vw;
+        position: fixed;
+        font-family: "Press Start 2P", system-ui;
+        font-weight: 250;
+        font-style: normal;
+        color: #F7E048;
+        text-shadow: 0.17vw 0.13vw red;
+        box-sizing: border-box;
+}
+
+.no_colour{
+    color: inherit;
+    text-decoration: none;
+}
+
+.landing{
+
+    padding-top: 7vw;
+    height: 50vw;
+    
+    
+}
+
+.landing_h1{
+    margin-top: 7.5vw;
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    color: #F7E048;
+    text-shadow: 0.5vw 0.2vw red;
+    font-size:3.42vw;
+    box-sizing: border-box;
+    
+}
+
+.landing_p{
+    margin-top: 4.5vw;
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    color: #F7E048;
+    text-shadow: 3px 3px red;
+    font-size: 2.1vw;
+    box-sizing: border-box;
+    
+}
+
+.start{
+    margin-top: -50vw;
+    margin-left: 25vw;
+    box-sizing: border-box;
+}
+
+.fun{
+    margin-left: 3vw;
+    margin-bottom:-5vw;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+
+.fun2{
+    margin-left: 73vw;
+    margin-top: 2vw;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+
+
+.fun3{
+    margin-left: 90vw;
+    margin-top: -3vw;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+
+.mario{
+    margin-top: -150px;
+    margin-left: -1050px;
+}
+
+
+#about{
+    
+    background-color: black;
+    padding-top: 12vh;
+    background-color: rgb(0, 0, 0);
+    height: 50vw;
+    width: 100%; 
+    
+}
+
+.about_h1{
+
+    padding-top: 5px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    color: #F7E048;
+    text-shadow: 5px 5px red;
+    text-align: center;
+    font-size: 3vw;
+    
+}
+
+.about_p1{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    color: #F7E048;
+    text-shadow: 3px 3px red;
+    font-size: 1vw;
+    line-height: 2.5vw;
+    width: 70vw;
+    margin-top: -28vw;
+    padding: 5vh;
+
+}
+
+.tv{
+    margin-left: 68vw;
+    margin-bottom: -2.7vw;
+}
+
+#skills{
+    background-color: black;
+    padding-top: 12vh;
+    background-color: rgb(0, 0, 0);
+    height: 120vw;
+    width: 100%; 
+}
+
+.c_img{
+        margin-top: -1.04vw;
+}
+
+.html_img{
+    margin-top: -20vh;
+    margin-bottom:-40vw;
+    margin-left: 65vw;
+}
+
+.css_img{
+
+    margin-bottom: -30vw;
+    margin-left: 7vw;
+}
+
+
+.js_img{
+
+    margin-bottom:-30vw;
+    margin-left: 74vw;
+}
+
+.skill_c{
+    padding-top: 5px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    color: #F7E048;
+    text-shadow: 5px 5px red;
+    font-size: 3vw;
+    margin-left: 30vw;
+    margin-top: -18.5vw;
+
+}
+
+.skill_html{
+    padding-top: 5px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    color: #F7E048;
+    font-size: 3vw;
+    text-shadow: 5px 5px red;
+    margin-left: 47vw;
+    margin-top: 20vw;
+
+}
+
+.skill_css{
+
+    padding-top: 5px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    color: #F7E048;
+    text-shadow: 5px 5px red;
+    font-size: 3vw;
+    margin-left: 30vw;
+    margin-top: 18.5vw;
+
+
+}
+
+.skill_js{
+
+    padding-top: 5px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    color: #F7E048;
+    text-shadow: 5px 5px red;
+    font-size: 3vw;
+    margin-left: 26vw;
+    margin-top: 20vw;
+
+}
+
+#contact{
+    
+    background-color: rgb(0, 0, 0);
+    padding-top: 12vh;
+    height: 45vw;
+    width: 100%; 
+    box-sizing: border-box;
+    
+}
+
+.contact_h1{
+
+    padding-top: 5px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    color: #F7E048;
+    text-shadow: 5px 5px red;
+    text-align: center;
+    font-size: 3vw;
+    padding-bottom: 2vw;
+    
+}
+
+.phn_img{
+       margin-top: -10vw;
+        margin-bottom: -6vw;
+        box-sizing: border-box;
+        
+}
+
+.mail_img{
+    margin-top: -6vw;
+    margin-left: 4vw;
+    box-sizing: border-box;
+}
+
+.location_img{
+    margin-top: -15vw;
+    margin-bottom: -10vw;
+    margin-left: -11.5vw;
+}
+
+.contact_p1{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    color: #F7E048;
+    text-shadow: 3px 3px red;
+    font-size: 1vw;
+    line-height: 2.5vw;
+    margin-left: 13vw;
+    margin-top: 6vw;
+}
+
+.contact_p2{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    color: #F7E048;
+    text-shadow: 3px 3px red;
+    font-size: 1vw;
+    line-height: 2.5vw;
+    margin-left: 13vw;
+    margin-top: 3vw;
+}
+
+.contact_p3{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    color: #F7E048;
+    text-shadow: 3px 3px red;
+    font-size: 1vw;
+    line-height: 2.5vw;
+    margin-left: 13vw;
+    margin-top: 3vw;
+}
+
+.insta_img{
+    margin-left: 27vw;
+    margin-top: 3.35vw;
+    box-sizing: border-box;
+}
+
+.linkedin_img{
+    padding-left: 10vw;
+    margin-top: 1.4vw;
+    box-sizing: border-box;
+}
+
+.github_img{
+    margin-left: 10vw;
+    margin-top: 1.4vw;
+    box-sizing: border-box;
+}
+
+footer{
+   margin-top: -2vw;
+    background-color: rgb(255, 255, 255);
+    height: 4.68vw;
+    box-sizing: border-box;
+    
+
+}
+

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time table</title>
+    
+    <style>
+            table{
+                border-collapse: collapse;
+                
+                
+            }
+            td{
+                border: 1px solid;
+                border-collapse: collapse;
+                text-align: center;
+                padding-left:25px;
+                padding-right:25px;
+            }
+            td:first-child{
+                border: none;
+                padding: 0px;
+            }
+            tr:first-child td, tr:first-child td {
+            border: none;
+        }
+            #line1{
+                background-color: lightyellow;
+            }
+            #line2{
+                background-color: lightblue;
+            }
+            #line3{
+                background-color:bisque;
+            }
+            #line4{
+                background-color: lavender;
+            }
+            #line5{
+                background-color: rgb(167, 241, 167);
+            }
+            #recess{
+                background-color: lightgray;
+            }
+            #lunch{
+                background-color: lightgray;
+            }
+
+            
+    </style>
+</head>
+<body>
+         
+        <table>
+            <caption><h3>Intrim Term 2 Elizabeth college timetable</h3></caption>
+            <tr>
+                <td colspan="1"></td>
+                <td colspan="4">Monday</td>
+                <td colspan="4">Teusday</td>
+                <td colspan="4">Wednesday</td>
+                <td colspan="4">Thursday</td>
+                <td colspan="4">friday</td>
+            </tr>
+            <tr>
+                <td>9.00</td>
+                <td id="line1" colspan="4" rowspan="4">Line 1</td>
+                <td id="line4" colspan="4" rowspan="4">Line 4</td>
+                <td id="line3" colspan="4" rowspan="4">Line 3</td>
+                <td id="line5" colspan="4" rowspan="4">Line 5</td>
+                <td id="line3" colspan="4" rowspan="4">Line 3</td>
+            </tr>
+            <tr>
+                <td>9.30</td>
+            </tr>
+            <tr>
+                <td>10.00</td>
+            </tr>
+            <tr>
+                <td>10.00</td>
+            </tr>
+            <tr>
+                <td>10.30</td>
+                <td id="recess" colspan="4" rowspan="1">recess</td>
+                <td id="recess" colspan="4" rowspan="1">recess</td>
+                <td id="recess" colspan="4" rowspan="1">recess</td>
+                <td id="recess" colspan="4" rowspan="1">recess</td>
+                <td id="recess" colspan="4" rowspan="1">Recess</td>
+            </tr>
+            <tr>
+                <td>11.00</td>
+                <td id="line2" colspan="4" rowspan="4">Line 2</td>
+                <td id="line5" colspan="4" rowspan="4">Line 5</td>
+                <td style="background-color: pink;" colspan="4" rowspan="2">Home Group</td>
+                <td id="line4" colspan="4" rowspan="4">Line 4</td>
+                <td id="line1" colspan="4" rowspan="4">Line 1</td>
+            </tr>
+            <tr>
+                <td>11.30</td>
+            </tr>
+            <tr>
+                <td>12.00</td>
+                <td id="line2" rowspan="2">Line 2</td>
+            </tr>
+            <tr>
+                <td>12.30</td>
+            </tr>
+            <tr>
+                <td>1.00</td>
+                <td id="lunch" colspan="4" rowspan="1">Lunch</td>
+                <td id="lunch" colspan="4" rowspan="1">Lunch</td>
+                <td id="lunch" colspan="4" rowspan="1">Lunch</td>
+                <td id="lunch" colspan="4" rowspan="1">Lunch</td>
+                <td id="lunch" colspan="4" rowspan="1">Lunch</td>
+            </tr>
+            <tr>
+                <td>1.30</td>
+                <td id="line3" colspan="4" rowspan="3">Line 3</td>
+                <td id="line5" colspan="4" rowspan="2">Line 5</td>
+                <td id="line1" colspan="4" rowspan="2">Line 1</td>
+                <td id="line1" colspan="4" rowspan="2">Line 4</td>
+                <td id="line2" colspan="4" rowspan="3">Line 2</td>
+            </tr>
+            <tr>
+                <td>2.00</td>
+            </tr>
+            <tr>
+                <td>2.30</td>
+                <td colspan="4" rowspan="3">Staff meeting</td>
+                <td colspan="4" rowspan="3">Teacher <br> Assesment & <br> Preparation</td>
+                <td colspan="4" rowspan="3">Leadership <br> Meeting</td>
+            </tr>
+            <tr>
+                <td>3.00</td>
+                <td colspan="4" rowspan="2">Teacher <br> Assesment & <br> Preparation</td>
+                <td colspan="4" rowspan="2">Teacher <br> Assesment & <br> Preparation</td>
+                
+            </tr>
+            <tr>
+                <td>3.30</td>
+
+            </tr>
+            
+        </table>
+        
+</body>
+</html>

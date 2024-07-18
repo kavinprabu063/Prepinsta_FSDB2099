@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 500px;
+    width: 500px;
+    background: radial-gradient(circle at 20% 105%,#FFA300 0%,#FE281C 30%,#FD00C3 45%,#8303FC 90%);
+    border-radius: 20%;
+    margin: 100px;
+}
+
+.inner{
+    height: 400px;
+    width: 400px;
+    background: radial-gradient(circle at 20% 105%,#FFA300 0%,#FE281C 30%,#FD00C3 45%,#8303FC 90%);
+    border-radius: 20%;
+    margin: auto;
+    border: 30px solid;
+    border-color: white;
+    transform: translateY(50PX);
+    
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(circle at 20% 105%,#FFA300 0%,#FE281C 30%,#FD00C3 45%,#8303FC 90%);
+    border-radius: 50%;
+    margin: auto;
+    border: 30px solid;
+    border-color: white;
+    transform: translate(2%,20%);
+}
+
+.smallcircle{
+    height: 15px;
+    width: 15px;
+    background: radial-gradient(circle at 20% 105%,#FFA300 0%,#FE281C 30%,#FD00C3 45%,#8303FC 90%);
+    border-radius: 50%;
+    margin: auto;
+    border: 20px solid;
+    border-color: white;
+    transform: translate(110px,40px);
+}

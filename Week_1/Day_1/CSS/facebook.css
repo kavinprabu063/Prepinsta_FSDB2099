@@ -1,0 +1,35 @@
+*{  
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+form{
+    margin: 20px;
+}
+
+.cover{
+    margin-left: 350px;
+}
+
+.profile{
+    background-color: aliceblue;
+    height: 150px;
+    width: 851px;
+    margin-left: 350px;
+}
+
+.propic{
+    transform: translate(-5px,-28px);
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
