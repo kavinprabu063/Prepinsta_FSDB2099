@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    margin-left: 45vw;
+    margin-top: -3vw;
+}
+
+header{
+    margin-top: -5vw;
+    height: 5vw;
+    width: 100vw;
+    background-color: #F8F7E5;
+    border-bottom: 0.3vw solid;
+    border-color: #1D1D1D;
+    position: fixed;
+    
+}
+
+ul{
+    list-style: none;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    margin-left: 58vw;
+    margin-top: -8vw;
+}
+
+li{
+    padding: 3vw;
+    color: #1D1D1D;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+.happy{
+    color: #1D1D1D;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+
+.landing{
+
+    background-repeat: no-repeat;
+    background-color: #F8F7E5;
+    background-size: cover;
+    height: 40vw;
+    margin-top: 5vw;
+
+}
+.h1_intro{
+
+    color: #1D1D1D;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-size: 6vw;
+    padding-top: 7vw;
+    padding-left: 7vw;
+}
+
+.p_intro{
+    font-family: "Outfit", sans-serif;
+    font-size: 2vw;
+    padding-left: 7vw;
+    padding-top: 3vw;
+}
+
+.landing2{
+    height: 50vw;
+    background-color: #F8F7E5;
+}
+
+.landing2_h2{
+    
+    color: #1D1D1D;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-size: 3vw;
+    
+}
+
+
+
